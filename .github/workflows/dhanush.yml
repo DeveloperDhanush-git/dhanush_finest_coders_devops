@@ -9,4 +9,4 @@ jobs:
     
     steps:
     - name: dhanush
-       run.echo "hello"
+      run: echo "hello"
