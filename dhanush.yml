@@ -1,0 +1,12 @@
+name: dhanush.yml
+on:
+  push:
+    branches:
+      - main   
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: dhanush
+       run.echo "hello"
